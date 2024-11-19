@@ -1,0 +1,213 @@
+.Moross-home{
+        background-color: #C7FC9F;
+        font-family: "Bai Jamjuree", sans-serif;
+
+        overflow-y:hidden; 
+        overflow-x: hidden;
+}
+
+h1{
+        font-family: "Archivo Black";
+        font-size: 189px;
+        margin-right: 20px;
+        margin: 0;
+        -webkit-text-fill-color:#73CC68;
+       letter-spacing: -20px;
+       line-height: 125px;
+
+        text-align: right;
+        position: relative; top: 275px;
+
+        
+      
+}
+
+.moross{
+        font-weight: 400;
+        font-style: normal;
+        font-size: 26px;
+        -webkit-text-fill-color:#FFFFFF;
+
+        text-align: right;
+        position: relative; left:67%;
+        width: 30%;
+        position: relative; top: 275px;
+        
+
+        background-color:#73CC68;
+        padding-right: 60px;
+        padding-top: 15px;
+        padding-left: 40px;
+        border-radius: 25px;
+        padding-bottom: 20px;
+        
+
+}
+
+.circle1{
+
+        height: 70px;
+        width: 70px;
+        background-color:  rgb(117,246,100);
+        border-radius: 50%;
+
+        position: absolute; left:24%;
+        bottom: 400px;
+
+
+}
+
+.circle2{
+
+        height: 190px;
+        width: 190px;
+        background-color:  rgb(117,246,100);
+        border-radius: 50%;
+
+        position: absolute; left:20%;
+        top: 500px;
+}
+
+.circle3{
+
+        height: 120px;
+        width: 120px;
+        background-color:  rgb(117,246,100);
+        border-radius: 50%;
+
+        position: absolute; left:30%;
+        top: 675px;
+}
+
+.circle4{
+
+        height: 450px;
+        width: 450px;
+        background-color:  rgb(117,246,100);
+        border-radius: 50%;
+
+        position: absolute; left:35%;
+        top: 200px;
+}
+
+
+
+
+
+
+img{
+border-radius: 50%;
+position: absolute; right:75%;
+top: 700px;
+
+margin: 0%;
+border: 25px solid rgb(117,246,100);
+overflow: -moz-hidden-unscrollable
+
+}
+
+ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 60px;
+      }
+      
+    
+      li a {
+        display: inline-block;
+        font-family: "Bai Jamjuree";
+        margin-bottom: 15px;
+        color: #000;
+        text-decoration: none;
+        position: relative;
+        font-size: 3em;
+      }
+    
+     
+    
+      .link{
+        translate: 20px;
+        /* transition: width .5s; */
+      }
+    
+      /* .link:hover{
+        translate: 100px;
+      }
+    
+      .link::before:hover{
+        width: 90px; 
+    } */
+    
+    .active{
+        translate: 100px;
+        color:#73CC68;
+      }
+    
+      .active::before{
+        content: "";
+        position: absolute;
+        left: -110px;
+        top: 0;
+        height: 100%;
+        width: 100px;
+        background-color: #73CC68;
+        color: #73CC68;
+      }
+    
+      .about-link{
+        color: #34E3EA;
+      }
+    
+      .gallery-link{
+        color:#7446FC;
+      }
+    
+      .style-link{
+        color: #FFFF92;
+      }
+      
+    .awards-link{
+        color:#FF92F0;
+    
+    }
+    
+      .about-link::before{
+        content: "";
+        position: absolute;
+        left: -30px;
+        top: 0;
+        height: 100%;
+        width: 20px;
+        background-color: #34E3EA;
+      }
+    
+      .gallery-link::before{
+        content: "";
+        position: absolute;
+        left: -30px;
+        top: 0;
+        height: 100%;
+        width: 20px;
+        background-color: #7446FC;
+      }
+    
+      .style-link::before{
+        content: "";
+        position: absolute;
+        left: -30px;
+        top: 0;
+        height: 100%;
+        width: 20px;
+        background-color:#FFFF92;
+      }
+    
+      .awards-link::before{
+        content: "";
+        position: absolute;
+        left: -30px;
+        top: 0;
+        height: 100%;
+        width: 20px;
+        background-color: #FF92F0;
+      }

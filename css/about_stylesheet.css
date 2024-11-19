@@ -1,0 +1,165 @@
+body{
+    background-color: #C6FDFF;
+    font-family: "Bai Jamjuree", sans-serif;
+    overflow-y:hidden; 
+    overflow-x: hidden;
+}
+
+h1{
+    font-family: "Archivo Black";
+    font-size: 196px;
+    margin-right: 20px;
+    margin: 0;
+    -webkit-text-fill-color:#3CBBBF;
+   line-height: 125px;
+   position: relative; right:1%;
+   position: relative; top: 375px;
+
+
+ 
+}
+
+h2{
+    font-family: "Archivo Black";
+    font-size: 114px;
+    margin-right: 20px;
+    margin: 0;
+    -webkit-text-fill-color:#71FAFF;
+   letter-spacing: -10px;
+   line-height: 125px;
+   position: relative; right:1%;
+   position: relative; top: 272px;
+   opacity: 75%;
+
+}
+
+.about{
+
+    font-weight: 400;
+    font-style: normal;
+    font-size: 26px; 
+    width: 55%; 
+    margin: 0%;   
+    -webkit-text-fill-color:#B6FCFF;
+
+    background-color:#3CBBBF;
+    padding-right: 40px;
+    padding-top: 15px;
+    padding-left: 70px;
+    border-radius: 25px;
+    padding-bottom: 50px;
+
+    position: relative; top:250px;
+    position: relative; right:1%;
+
+    
+
+
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 60px;
+  }
+  
+
+  li a {
+    display: inline-block;
+    font-family: "Bai Jamjuree";
+    margin-bottom: 15px;
+    color: #000;
+    text-decoration: none;
+    position: relative;
+    font-size: 3em;
+  }
+
+ 
+
+  .link{
+    translate: 20px;
+    /* transition: width .5s; */
+  }
+
+  /* .link:hover{
+    translate: 100px;
+  }
+
+  .link::before:hover{
+    width: 90px; 
+} */
+
+.active{
+    translate: 100px;
+    color:#34E3EA;
+  }
+
+  .active::before{
+    content: "";
+    position: absolute;
+    left: -110px;
+    top: 0;
+    height: 100%;
+    width: 100px;
+    background-color: #34E3EA;
+    color: #34E3EA;
+  }
+
+  .home-link{
+    color: #73CC68;
+  }
+
+  .gallery-link{
+    color:#7446FC;
+  }
+
+  .style-link{
+    color: #FFFF92;
+  }
+  
+.awards-link{
+    color:#FF92F0;
+
+}
+
+  .home-link::before{
+    content: "";
+    position: absolute;
+    left: -30px;
+    top: 0;
+    height: 100%;
+    width: 20px;
+    background-color: #73CC68;
+  }
+
+  .gallery-link::before{
+    content: "";
+    position: absolute;
+    left: -30px;
+    top: 0;
+    height: 100%;
+    width: 20px;
+    background-color: #7446FC;
+  }
+
+  .style-link::before{
+    content: "";
+    position: absolute;
+    left: -30px;
+    top: 0;
+    height: 100%;
+    width: 20px;
+    background-color:#FFFF92;
+  }
+
+  .awards-link::before{
+    content: "";
+    position: absolute;
+    left: -30px;
+    top: 0;
+    height: 100%;
+    width: 20px;
+    background-color: #FF92F0;
+  }
